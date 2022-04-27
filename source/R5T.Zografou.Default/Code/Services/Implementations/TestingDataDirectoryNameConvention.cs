@@ -1,9 +1,9 @@
-﻿using System;
+using System;using R5T.T0064;
 
 
 namespace R5T.Zografou.Default
-{
-    public class TestingDataDirectoryNameConvention : ITestingDataDirectoryNameConvention
+{[ServiceImplementationMarker]
+    public class TestingDataDirectoryNameConvention : ITestingDataDirectoryNameConvention,IServiceImplementation
     {
         public const string TestingDataDirectoryName = "Testing Data";
 
